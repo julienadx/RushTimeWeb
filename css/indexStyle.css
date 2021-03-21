@@ -1,0 +1,153 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    cursor: default;
+}
+
+body {
+    background-color: #e8c18b;
+    color: #c3761a;
+}
+
+#title {
+    display: none;
+}
+
+.navBar {
+    position: absolute;
+    width: 100%;
+    height: 12%;
+    top: 0px;
+    left: 0px;
+    border-bottom: 5px solid #c3761a;
+    display: inline-table;
+}
+
+.navBar h1 {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3em;
+    font-family: monospace;
+}
+
+.navBar h2 {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 2.5em;
+    font-family: monospace;
+}
+
+
+#containSec {
+    position: absolute;
+    left: 8%;
+    top: 18%;
+    right: 27%;
+    bottom: 6%;
+    border: 2px dashed black;
+}
+
+.secMode {
+    position: absolute;
+    width: 30%;
+    height: 47%;
+    border: 3px solid #c3761a;
+    border-radius: 5px;
+    display: inline-table;
+}
+
+.secMode h1 {
+    display: table-cell;
+    vertical-align: bottom;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+#stSec {
+    left: 0%;
+    top: 0%;
+}
+
+#ndSec {
+    left: 35%;
+    top: 0%;
+}
+
+#rdSec {
+    right: -0.2%;
+    top: 0%;
+}
+
+#fthSec {
+    left: 0%;
+    top: 53%;
+}
+
+#fithSec{
+    left: 35%;
+    top: 53%;
+}
+
+#sthSec {
+    right: -0.2%;
+    top: 53%;
+}
+
+.selcMode {
+    position: absolute;
+    width: 30%;
+    height: 47%;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px dashed blue;
+}
+
+#stSelc {
+    left: 0%;
+    top: 0%;
+}
+
+#ndSelc {
+    left: 35%;
+    top: 0%;
+}
+
+#rdSelc {
+    right: -0.2%;
+    top: 0%;
+}
+
+#fthSelc {
+    left: 0%;
+    top: 53%;
+}
+
+#fithSelc {
+    left: 35%;
+    top: 53%;
+}
+
+#sthSelc {
+    right: -0.2%;
+    top: 53%;
+}
+
+/*----------------------------------Fieldy------------------------------------------*/
+
+
+#fFieldy {
+    position: absolute;
+    width: 100%;
+    height: 87%;
+    top: 13%;
+    left: 0%;
+    border: 1px solid black;
+    display: inline-table;
+}
+
+#fFieldy td {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
